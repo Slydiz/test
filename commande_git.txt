@@ -1,0 +1,82 @@
+# Creer le dossier projet
+git init 
+
+# Creer les fichier f1.txt et f2.txt
+touch f1.txt f2.txt
+git add f1.txt f2.txt
+git commit -m "Commit 1"
+
+# Modifier f1.tx et f2.txt
+git add f1.txt f2.txt
+git commit -m "Commit 2"
+
+# Ajouter f3.txt et f4.txt
+touch f3.txt f4.txt
+git add f3.txt f4.txt
+git commit -m "Commit 3"
+
+# Creer le fichier .gitignore
+touch .gitignore
+# Modifier le fichier .gitignore en mettant f3.txt et f4.txt
+git commit -m "Commit 4"
+
+# Ajouter les fichiers f5.txt et f6.txt
+touch f5.txt et f6.txt
+git add f5.txt f6.txt
+git commit -m "Commit 5"
+
+# Creer la branche A
+git branch brancheA
+
+# Creer la branche B
+git branch brancheB
+
+# Seplacer sur la branche A
+git checkout brancheA
+
+# Creer le fichier f7.txt
+touch f7.txt
+git add f7.txt
+git commit "Commit 6"
+
+# Seplacer sur la branche B
+git checkout brancheB
+
+# Creer le fichier f8.txt
+touch f8.txt
+git add f8.txt
+git commit "Commit 7"
+
+# Seplacer sur la branche A
+git checkout brancheA
+
+# Creer le fichier f9.txt
+touch f9.txt
+git add f9.txt
+git commit "Commit 8"
+
+# Creer le fichier f10.txt
+touch f10.txt
+git add f10.txt
+git commit "Commit 9"
+
+# Seplacer sur la branche B
+git checkout brancheB
+
+# Creer le fichier f11.txt
+touch f11.txt
+git add f11.txt
+git commit "Commit 10"
+
+# Creer le fichier f12.txt
+touch f12.txt
+git add f12.txt
+git commit "Commit 11"
+
+# Seplacer sur la branche A
+git checkout brancheA
+
+# Creer le fichier f13.txt
+touch f13.txt
+git add f13.txt
+git commit "Commit 12"
